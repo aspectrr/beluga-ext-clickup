@@ -1,6 +1,6 @@
 # beluga-ext-clickup
 
-ClickUp connector + tools extension for [Beluga](https://github.com/collinpfeifer/beluga).
+ClickUp connector + tools extension for [Beluga](https://github.com/aspectrr/beluga).
 
 ## What It Does
 
@@ -20,7 +20,7 @@ ClickUp connector + tools extension for [Beluga](https://github.com/collinpfeife
 ## Installation
 
 ```bash
-beluga extend install github.com/collinpfeifer/beluga-ext-clickup
+beluga extend install github.com/aspectrr/beluga-ext-clickup
 ```
 
 Or from a local clone:
@@ -69,8 +69,8 @@ This extension imports Beluga's internal packages. It compiles when placed insid
 
 ```bash
 # Clone Beluga and this extension side by side
-git clone https://github.com/collinpfeifer/beluga
-git clone https://github.com/collinpfeifer/beluga-ext-clickup
+git clone https://github.com/aspectrr/beluga
+git clone https://github.com/aspectrr/beluga-ext-clickup
 
 # Install into Beluga's source tree
 cd beluga

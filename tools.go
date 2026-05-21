@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/collinpfeifer/beluga/internal/core/tools"
+	"github.com/aspectrr/beluga/pkg/tools"
 )
 
 // clickupTool is a generic ClickUp tool with a client reference.

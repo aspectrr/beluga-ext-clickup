@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/collinpfeifer/beluga/internal/core/eventstore"
-	"github.com/collinpfeifer/beluga/internal/core/model"
-	"github.com/collinpfeifer/beluga/internal/core/session"
+	"github.com/aspectrr/beluga/pkg/eventstore"
+	"github.com/aspectrr/beluga/pkg/model"
+	"github.com/aspectrr/beluga/pkg/session"
 )
 
 // TriggerReason describes why a task was picked up by the poller.

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"log/slog"
 
-	"github.com/collinpfeifer/beluga/internal/core/extension"
+	"github.com/aspectrr/beluga/pkg/extension"
 )
 
 const defaultAgentUsername = "Beluga Agent"
