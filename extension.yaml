@@ -1,0 +1,49 @@
+# Beluga Extension Manifest
+name: clickup
+description: "ClickUp integration — polls for tasks, mentions, and thread replies. Creates agent sessions when the agent is @mentioned or assigned."
+
+config:
+  - name: api_token
+    type: string
+    description: "ClickUp personal token (pk_...) or OAuth access token"
+    required: true
+    secret: true
+    env_var: "CLICKUP_API_TOKEN"
+
+  - name: team_id
+    type: string
+    description: "ClickUp team ID"
+    required: true
+
+  - name: space_id
+    type: string
+    description: "Filter tasks to a specific space"
+    required: false
+
+  - name: list_id
+    type: string
+    description: "Filter tasks to a specific list"
+    required: false
+
+  - name: agent_username
+    type: string
+    description: "Username to detect @mentions"
+    required: false
+    default: "Beluga Agent"
+
+  - name: poll_interval
+    type: duration
+    description: "How often to poll for updates"
+    required: false
+    default: "30s"
+
+  - name: proxy
+    type: string
+    description: "HTTP proxy URL"
+    required: false
+
+  - name: webhook_secret
+    type: string
+    description: "Secret for verifying webhook payloads"
+    required: false
+    secret: true
