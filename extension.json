@@ -1,0 +1,48 @@
+{
+  "name": "clickup",
+  "entrypoint": "index.ts",
+  "version": "0.1.0",
+  "description": "ClickUp integration. Polls for tasks/comments, registers tools for task management.",
+  "config": [
+    {
+      "name": "api_token",
+      "type": "string",
+      "description": "ClickUp API token (pk_... or OAuth token)",
+      "required": true,
+      "env_var": "CLICKUP_API_TOKEN",
+      "secret": true
+    },
+    {
+      "name": "team_id",
+      "type": "string",
+      "description": "ClickUp team ID",
+      "required": true
+    },
+    {
+      "name": "space_id",
+      "type": "string",
+      "description": "Filter tasks to specific space",
+      "required": false
+    },
+    {
+      "name": "list_id",
+      "type": "string",
+      "description": "Filter tasks to specific list",
+      "required": false
+    },
+    {
+      "name": "agent_username",
+      "type": "string",
+      "description": "Username to detect @mentions",
+      "required": false,
+      "default": "Beluga Agent"
+    },
+    {
+      "name": "poll_interval",
+      "type": "string",
+      "description": "Polling frequency (e.g. '30s')",
+      "required": false,
+      "default": "30s"
+    }
+  ]
+}

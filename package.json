@@ -1,0 +1,20 @@
+{
+  "name": "@beluga/ext-clickup",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "index.ts",
+  "types": "index.ts",
+  "scripts": {
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@beluga/sdk": "file:../beluga/packages/sdk"
+  },
+  "peerDependencies": {
+    "pino": "^9.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "license": "MIT"
+}
