@@ -8,7 +8,7 @@
     "check": "tsc --noEmit"
   },
   "dependencies": {
-    "@beluga/sdk": "file:../beluga/packages/sdk"
+    "@aspectrr/beluga-sdk": "^0.1.1"
   },
   "peerDependencies": {
     "pino": "^9.0.0"

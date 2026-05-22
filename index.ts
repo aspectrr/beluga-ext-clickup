@@ -7,7 +7,7 @@ import type {
 	Tool,
 	ToolDef,
 	ToolContext,
-} from "@beluga/sdk";
+} from "@aspectrr/beluga-sdk";
 import type { Logger } from "pino";
 
 // ── Types ──────────────────────────────────────────────────────
